@@ -1,3 +1,4 @@
+// euclidean algorithm use for gcd and lcm.
 // GCD, LCM identify using while loop. it is applicable for small and big number in input.
 #include <stdio.h>
 int main()
