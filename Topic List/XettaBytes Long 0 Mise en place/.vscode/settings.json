@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "charconv": "cpp",
+    "limits": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "*.tcc": "cpp",
+    "compare": "cpp",
+    "functional": "cpp"
+  }
+}
