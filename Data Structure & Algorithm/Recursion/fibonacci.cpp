@@ -2,6 +2,7 @@
 using namespace std;
 int fibo(int n)
 {
+    // Base cases
     if (n == 0)
     {
         return 0;
@@ -10,14 +11,19 @@ int fibo(int n)
     {
         return 1;
     }
+
+    // Recursive case
     return fibo(n - 1) + fibo(n - 2);
 }
 
 int main()
 {
+    // Get the number from the user.
     int n;
+    cout << "Enter a number: ";
     cin >> n;
-    int temp = fibo(n);
-    cout << temp << endl;
+
+    // Print the Fibonacci number.
+    cout << "The Fibonacci number for " << n << " is " << fibo(n) << endl;
     return 0;
 }

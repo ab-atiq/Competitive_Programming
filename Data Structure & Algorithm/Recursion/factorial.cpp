@@ -10,9 +10,11 @@ int fact(int n)
 
 int main()
 {
+    // Get the number from the user.
     int n;
+    cout << "Enter a number: ";
     cin >> n;
-    int temp = fact(n);
-    cout << temp << endl;
-    return 0;
+
+    // Print the factorial of the number.
+    cout << "The factorial of " << n << " is " << fact(n) << endl;
 }
