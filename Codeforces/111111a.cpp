@@ -9,6 +9,7 @@ int main()
     cin >> tc;
     for (int i = 1; i <= tc; i++)
     {
-        }
+        
+    }
     return 0;
 }

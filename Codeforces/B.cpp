@@ -9,6 +9,16 @@ int main()
     cin >> tc;
     for (int i = 1; i <= tc; i++)
     {
+        int n;
+        cin >> n;
+        if (n <= 3)
+        {
+            cout << n << endl;
         }
+        else
+        {
+            cout << 2 << endl;
+        }
+    }
     return 0;
 }
